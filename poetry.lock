@@ -322,6 +322,17 @@ files = [
 ]
 
 [[package]]
+name = "pipe"
+version = "2.1"
+description = "Module enabling a sh like infix syntax (using pipes)"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "pipe-2.1-py3-none-any.whl", hash = "sha256:d44390a97b6c18d7e5cf5d3a6b50f7aabd1622a81dfcac48252246fcafaa5461"},
+    {file = "pipe-2.1.tar.gz", hash = "sha256:e0ee44d7a17b4cbed2fd31839d59a3409638fc2d6daa6a714e1c062ef57956db"},
+]
+
+[[package]]
 name = "platformdirs"
 version = "4.1.0"
 description = "A small Python package for determining appropriate platform-specific dirs, e.g. a \"user data dir\"."
@@ -444,4 +455,4 @@ zstd = ["zstandard (>=0.18.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "aac81dddb9d0d9b56d7a6486e54100385031cb687168f294441406e474700134"
+content-hash = "608bb04291a9b442a9a0e857c09730b8fc44fdfc6f8924542ea1155d710d9cde"
