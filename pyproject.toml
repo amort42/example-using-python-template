@@ -9,7 +9,6 @@ readme = "README.md"
 python = "^3.12"
 requests = "^2.31.0"
 mypy = "^1.8.0"
-setuptools = "^69.0.3"
 
 
 [tool.poetry.group.test.dependencies]
@@ -21,6 +20,7 @@ flake8 = "^7.0.0"
 black = "^24.1.1"
 isort = "^5.13.2"
 mypy = "^1.8.0"
+setuptools = "^69.0.3"
 
 [build-system]
 requires = ["poetry-core"]
