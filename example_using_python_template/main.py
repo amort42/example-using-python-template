@@ -23,6 +23,7 @@ def main(argv=None) -> int:
 
     repos = requests.get(f"https://api.github.com/users/{args.name}/repos")
     if repos.status_code != 200:
+        print(f"status.code is {repos.status_code}")
         print(f"Failed to fetch repos for {args.name}")
         return 1
     repos = repos.json()
