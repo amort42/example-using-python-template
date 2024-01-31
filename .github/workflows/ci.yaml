@@ -11,6 +11,9 @@ jobs:
       - uses: amort42/actions-python/lint@main
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Prepare
+        run: |
+          pip install setuptools
 
   test:
     name: Test
